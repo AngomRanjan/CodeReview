@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<!-- Here goes style-->
+<style>
+  * {
+      box-sizing: border-box;
+      margin: 0px 0px;
+      padding: 0px 0px;
+    }
+  header{
+    width: 100%;
+    height:60px;
+    background-color: black;
+    color :white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }  
+  .left,.head-nav{
+    height:50px;
+    min-width: 100px ;
+    border:1px solid white;
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin:0px 7px;
+  }
+  .logo,.logo-text{
+    height: 48px;
+    width:48px;
+    border: 1px solid red;
+  }
+  .logo-text{
+    min-width:200px;
+  }
+  .logo-head{
+    font-size:1.1em;
+    font-weight: 700;
+  } 
+  #tagline{
+    font-size: 1em;
+  }
+  .follow{
+    display: inline;
+    margin-left: 17px;
+    vertical-align: middle;
+    width: 60px;
+    height: 20px;
+  }
+  .head-nav{
+    justify-content: right;
+    gap: 8px;
+  }
+  .nav-buttons{
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    align-self: center;
+    border-style: none;
+  }
+  .nav-buttons:hover{background-color: rgb(120, 138, 138);}
+  #view{width:120px;}
+  #sign-up{width:90px;}
+  #login{width:80px;}
+</style>
+<!-- style ends here-->
+  </head>
+<header>
+  <div class="left">
+    <div class="logo"><img src="logos.png"></div>
+    <div class="logo-text">
+      <h1 class='logo-head'>Angom Yohannes</h1>
+      <p id="tagline">We are Coders!  <button class="follow">Follow</button></p>
+    </div>
+  </div>
+    
+  <nav class="head-nav">
+    <button class="nav-buttons" id="fav">h</button>
+    <button class="nav-buttons" id="view">View Editor</button>
+    <button class="nav-buttons" id="sign-up">Sign Up</button>
+    <button class="nav-buttons" id="login">Log In</button>
+  </nav>
+</header>
+  <body>
+    Hello everyone
+    We are software Developers
+  </body>
+</html>
